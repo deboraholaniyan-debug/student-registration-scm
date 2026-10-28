@@ -8,10 +8,11 @@ The system represents a basic student registration process.
 
 - Student name
 - Personal email address
+- Institutional email address
 
 ## Processing
 
-The registration module checks that the required fields
+The registration module checks that all required fields
 are provided.
 
 If a required field is missing, registration is rejected.
@@ -26,10 +27,11 @@ Otherwise, a success message is returned.
 
 ## Data Storage
 
-The initial database schema defines a students table
-containing the student ID, name, and personal email.
+The students table contains a student ID, name, personal
+email, and institutional email.
 
 ## Configuration Management
 
 The source code, schema, tests, design document, and
 deployment instructions are controlled as project artifacts.
+Changes to related artifacts must be reviewed for consistency.
